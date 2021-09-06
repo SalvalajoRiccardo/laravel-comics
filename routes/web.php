@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 })->name('homepage');
+
+Route::get('/comics-page', function () {
+
+    $comics = config('comics');
+    $data = ['fumetti' => $comics];
+
+return view('comics', $data);
+})->name('comics-route');
