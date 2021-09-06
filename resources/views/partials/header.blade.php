@@ -18,5 +18,11 @@
                 <li><a href="">shop</a></li>
             </ul>
         </nav>
+        
     </div>
+    
 </header>
+
+<div id="jumbo">
+
+</div>

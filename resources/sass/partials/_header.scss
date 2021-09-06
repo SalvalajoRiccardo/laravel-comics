@@ -1,5 +1,6 @@
 header {
     height: 140px;
+    
     .h-container {
       background-color: white;
       display: flex;
@@ -40,4 +41,9 @@ header {
       }
   
     }
-  }
+}
+#jumbo {
+    height: 400px;
+    background-image: url('/img/jumbotron.jpg');
+    background-size: cover;
+}
