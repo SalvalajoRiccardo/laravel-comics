@@ -56,15 +56,15 @@
                 <button>SIGN-UP NOW</button>
                 <div>
                     <h2>follow us</h2>
-                    <img :src="require('@/assets/img/footer-facebook.png')"
+                    <img src="{{asset('img/footer-facebook.png')}}"
                     alt="facebook">
-                    <img :src="require('@/assets/img/footer-twitter.png')"
+                    <img src="{{asset('img/footer-twitter.png')}}"
                     alt="twitter">
-                    <img :src="require('@/assets/img/footer-youtube.png')"
+                    <img src="{{asset('img/footer-youtube.png')}}"
                     alt="youtube">
-                    <img :src="require('@/assets/img/footer-pinterest.png')"
+                    <img src="{{asset('img/footer-pinterest.png')}}"
                     alt="pinterest">
-                    <img :src="require('@/assets/img/footer-periscope.png')"
+                    <img src="{{asset('img/footer-periscope.png')}}"
                     alt="periscope">
                 </div>
 

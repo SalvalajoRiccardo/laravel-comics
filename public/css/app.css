@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+header {
+  height: 140px;
+}
+header .h-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+header .h-container #logo-h {
+  width: 100px;
+  height: 100%;
+  padding: 20px;
+}
+header .h-container nav {
+  height: 100%;
+  padding: 30px;
+}
+header .h-container nav ul {
+  list-style: none;
+  padding: 20px;
+}
+header .h-container nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+header .h-container nav ul li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 80px;
+}
+header .h-container nav ul li:hover a, header .h-container nav ul li.active a {
+  color: #0c7cec;
+  border-bottom: 3px solid #0c7cec;
+}
+
+footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+footer .container-f {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container-f .links {
+  display: flex;
+  padding: 50px 0;
+}
+footer .container-f .links h3 {
+  text-transform: uppercase;
+  color: white;
+  margin: 15px 0;
+}
+footer .container-f .links ul {
+  list-style: none;
+  margin-right: 20px;
+  color: gray;
+}
+footer .container-f .links ul li {
+  font-size: 14px;
+  line-height: 18px;
+}
+footer .container-f #img-footer {
+  background-image: url("/img/dc-logo-bg.png");
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer #social {
+  background-color: #303030;
+}
+footer #social .box {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+footer #social .box button {
+  background-color: #303030;
+  border: 2px solid #0c7cec;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+}
+footer #social .box div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+footer #social .box div h2 {
+  text-transform: uppercase;
+  color: #0c7cec;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+footer #social .box div img {
+  margin: 10px;
+}

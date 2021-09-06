@@ -1,0 +1,43 @@
+header {
+    height: 140px;
+    .h-container {
+      background-color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      
+      #logo-h {
+        width: 100px;
+        height: 100%;
+        padding: 20px;
+      }
+      nav {
+        height: 100%;
+        padding: 30px;
+        ul{
+          list-style: none;
+          padding: 20px;
+          li{
+            display: inline-block;
+            padding: 10px;
+            a {
+              display: inline-block;
+              color: black;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-weight: 600;
+              height: 80px;
+            }
+            &:hover, &.active {
+              a{
+              color: #0c7cec;
+              border-bottom: 3px solid #0c7cec;
+              }
+            }
+          }
+        }
+      }
+  
+    }
+  }
